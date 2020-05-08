@@ -147,8 +147,8 @@ class DetailPage extends StatelessWidget {
           ),
         ),
         Positioned(
-          left: 8.0,
-          top: 42.0,
+          left: 12.0,
+          top: 32.0,
           child: InkWell(
             onTap: () {
               Navigator.pop(context);
@@ -156,7 +156,7 @@ class DetailPage extends StatelessWidget {
             child: Icon(
               Icons.arrow_back,
               color: Color(0xff00e7ff),
-              size: 32.0,
+              size: 26.0,
             ),
           ),
         ),
